@@ -1,0 +1,153 @@
+Ans 1.
+
+The Java platform includes a collections framework. A collection is an object that represents a group of objects 
+(such as the classic Vector class). A collections framework is a unified architecture for representing and manipulating 
+collections, enabling collections to be manipulated independently of implementation details.
+
+in Java Collection Framework is a standardized library in Java that provides a set of classes and interfaces to store,
+ manipulate, and access collections of objects. It simplifies common tasks involving data collections and ensures code 
+reusability and consistency. It includes interfaces like List, Set, Map, and classes like ArrayList, HashSet, and more 
+for various collection types, making it easier to work with data in Java programs.
+
+Ans 2.
+
+ArrayList-:
+1) ArrayList internally uses a dynamic array to store the elements.
+2) An ArrayList class can act as a list only because it implements List only.
+3) ArrayList is better for storing and accessing data.
+4) The memory location for the elements of an ArrayList is contiguous.
+
+LinkedList-:
+1). LinkedList internally uses a doubly linked list to store the elements.
+2). LinkedList class can act as a list and queue both because it implements List and Deque interfaces.
+3). LinkedList implements the doubly linked list of the list interface.
+4). The location for the elements of a linked list is not contagious.
+
+Ans 3.
+
+Iterator-:
+Iterators are used in Collection framework in Java to retrieve elements one by one. It can be applied to any 
+Collection object. By using Iterator, we can perform both read and remove operations. Iterator must be used whenever 
+we want to enumerate elements in all Collection framework implemented interfaces like Set, List, Queue, Deque and also in all implemented classes of Map interface.
+
+ListIterator-:
+ListIterator It is only applicable for List collection implemented classes like arraylist, linkedlist etc. 
+It provides bi-directional iteration. ListIterator must be used when we want to enumerate elements of List. This 
+cursor has more functionality(methods) than iterator. ListIterator object can be created by calling listIterator() method 
+present in List interface.
+
+Ans 4.
+
+Enumeration-:
+Enumeration: Enumeration (or enum) is a user-defined data type. It is mainly used to assign names to integral 
+constants, the names make a program easy to read and maintain. In Java (from 1.5), enums are represented using the 
+enum data type. Java enums are more powerful than C/C++ enums. In Java, we can also add variables, methods and constructors to it.
+
+Iterator-:
+Iterators are used in Collection framework in Java to retrieve elements one by one. It can be applied to any 
+Collection object. By using Iterator, we can perform both read and remove operations. Iterator must be used whenever 
+we want to enumerate elements in all Collection framework implemented interfaces like Set, List, Queue, Deque and also in all implemented classes of Map interface.
+
+Ans 5.
+            List                                                         Set
+1. The List is an indexed sequence.	                       1. The Set is an non-indexed sequence.
+2. List allows duplicate elements	                       2. Set doesn’t allow duplicate elements.
+3. Elements by their position can be accessed.                 3. Position access to elements is not allowed.
+
+4. Multiple null elements can be stored.	               4. Null element can store only once.
+5. List implementations are ArrayList, LinkedList, Vector,     5. Set implementations are HashSet, LinkedHashSet.
+Stack	
+
+Ans 6.
+
+HashSet-:
+HashSet is a generic class of the Java collection framework. It extends AbstractSet and implements the Set interface. 
+It creates a collection that uses a hash table for storage. The hash table stores the information by using the hashing mechanism.
+
+Hashing uses the informational content to determine a unique value which is known as hash code. It is used as the index 
+in which data is stored that is associated with the key. The transformation of the key into hash code performed automatically.
+
+TreeSet-:
+TreeSet is a class of Java collection framework that extends AbstractSet and implements the Set, NavigableSet, and SortedSet interface. It creates a collection that uses a tree for storage.
+
+TreeSet is a generic class of the Java collection framework. It implements the Set interface. It uses TreeMap internally 
+to store the TreeSet elements. By default, it sorts the elements in natural order (ascending order). The order of sorting 
+depends on the Comparator that we have parsed. If no Comparator is parsed, it sorts the elements in the natural order.
+
+Ans 7.
+
+Array-:
+Arrays in Java are known as dynamically created objects.
+Arrays can hold the values of elements in a constant manner. Array cannot change its size once created. Also, the memory location for the array is contiguous. 
+To create an array with specific size, we can simply use command "int array[]=new int[size];" 
+Array shows  a message "ArrayIndexOutofBoundsException" whenever we add more elements to it after the limit has exceeded.  
+
+ArrayList-:
+Arraylist is not as strong or static as array and is concerned with the collection framework present in java.util package.
+It can store similar as well as different data types. Thus, its overall size and quality might vary dynamically. Thus, it is dynamic in size. 
+In C# collection, an ArrayList is one of the most important features to implement data structures in a simpler and easy manner. Also, it is able to implement Ilist Interface which is compatible with arrays.  
+Ilist Interface is used to add, delete, insert, view or modify the data types. 
+
+
+Ans 8.
+
+Maps are perfect to use for key-value association mapping such as dictionaries. The maps are used to perform lookups by keys or when someone wants to retrieve and update elements by keys. Some common scenarios are as follows: 
+
+A map of error codes and their descriptions.
+A map of zip codes and cities.
+A map of managers and employees. Each manager (key) is associated with a list of employees (value) he manages.
+A map of classes and students. Each class (key) is associated with a list of students (value).
+
+Ans 9.
+
+There are several Let’s see the characteristics and behaviors of each implementation with example classes that 
+implement the Java Map but three major and general-purpose implementations are HashMap, TreeMap, and LinkedHashMap.
+
+Ans 10.
+
+HashMap-:
+A HashMap contains values based on the key.
+It contains only unique elements.
+It may have one null key and multiple null values.
+It maintains no order.
+
+TreeMap-:
+
+. A TreeMap contains values based on the key. It implements the NavigableMap interface and extends AbstractMap class.
+. It contains only unique elements.
+. The first entry(key,value) insertion of TreeMap can comprise the null key, later no other key can be null and can 
+   have multiple null values.
+. It is same as HashMap instead maintains ascending order(Sorted using the natural order of its key).
+
+
+Ans 11.
+
+util. HashMap. containsKey() method is used to check whether a particular key is being mapped into the HashMap or not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
